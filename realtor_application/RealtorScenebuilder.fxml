@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="525.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="realtor_application.RealtorControllerClass">
+   <children>
+      <TextField fx:id="txtPropertyCode" layoutX="104.0" layoutY="58.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextField fx:id="txtBathrooms" layoutX="103.0" layoutY="343.0" prefHeight="25.0" prefWidth="174.0" promptText="0.0" />
+      <TextField fx:id="txtAddress" layoutX="104.0" layoutY="191.0" prefHeight="25.0" prefWidth="457.0" />
+      <TextField fx:id="txtPath" editable="false" layoutX="104.0" layoutY="376.0" prefHeight="25.0" prefWidth="652.0" text="https://www.marketingresultsatlanta.com/wp-content/uploads/2015/06/Winward-Lot2.jpg" />
+      <TextField fx:id="txtStories" layoutX="104.0" layoutY="304.0" prefHeight="25.0" prefWidth="174.0" promptText="0" />
+      <TextField fx:id="txtBedrooms" layoutX="411.0" layoutY="304.0" prefHeight="25.0" prefWidth="149.0" promptText="0" />
+      <TextField fx:id="txtYearBuilt" layoutX="410.0" layoutY="102.0" />
+      <TextField fx:id="txtLocation" layoutX="410.0" layoutY="229.0" />
+      <TextField fx:id="txtCity" layoutX="104.0" layoutY="228.0" prefHeight="25.0" prefWidth="174.0" />
+      <ComboBox fx:id="cboStatus" layoutX="410.0" layoutY="58.0" prefWidth="150.0" />
+      <ComboBox fx:id="cboStyle" layoutX="410.0" layoutY="145.0" prefWidth="150.0" />
+      <ComboBox fx:id="cboPropertyType" layoutX="103.0" layoutY="145.0" prefHeight="25.0" prefWidth="174.0" />
+      <Button fx:id="btnButtonOk" layoutX="621.0" layoutY="264.0" mnemonicParsing="false" onAction="#initial" prefHeight="25.0" prefWidth="134.0" text="OK" />
+      <Button fx:id="btnCancel" layoutX="621.0" layoutY="304.0" mnemonicParsing="false" onAction="#initial" prefHeight="25.0" prefWidth="134.0" text="Cancel" />
+      <DatePicker fx:id="dtDateListed" layoutX="103.0" layoutY="102.0" />
+      <ComboBox fx:id="cboState" layoutX="104.0" layoutY="264.0" prefHeight="25.0" prefWidth="174.0" />
+      <ImageView fx:id="imgPic" disable="true" fitHeight="150.0" fitWidth="192.0" layoutX="592.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://www.marketingresultsatlanta.com/wp-content/uploads/2015/06/Winward-Lot2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="62.0" text="Property Code:" />
+      <Label layoutX="31.0" layoutY="106.0" text="Date Listed:" />
+      <Label layoutX="16.0" layoutY="149.0" text="Property Type:" />
+      <Label layoutX="47.0" layoutY="195.0" text="Address:" />
+      <Label layoutX="68.0" layoutY="235.0" text="City:" />
+      <Label layoutX="62.0" layoutY="268.0" text="State:" />
+      <Label layoutX="53.0" layoutY="308.0" text="Stories:" />
+      <Label layoutX="25.0" layoutY="380.0" text="Picture Path:" />
+      <Label layoutX="27.0" layoutY="410.0" text="Description:" />
+      <Label layoutX="365.0" layoutY="62.0" text="Status:" />
+      <Label layoutX="348.0" layoutY="106.0" text="Year Built:" />
+      <Label layoutX="372.0" layoutY="149.0" text="Style:" />
+      <Label layoutX="353.0" layoutY="235.0" text="Location:" />
+      <Label layoutX="343.0" layoutY="308.0" text="Bedrooms:" />
+      <Label layoutX="31.0" layoutY="347.0" text="Bathrooms:" />
+      <MenuBar layoutX="2.0" layoutY="2.0" prefHeight="25.0" prefWidth="800.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="menuClose" mnemonicParsing="false" onAction="#initial" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem fx:id="menuDelete" mnemonicParsing="false" onAction="#initial" text="Delete" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TextField fx:id="txtCondition" layoutX="411.0" layoutY="264.0" />
+      <Label layoutX="345.0" layoutY="268.0" text="Condition:" />
+      <Label layoutX="326.0" layoutY="347.0" text="Market Value:" />
+      <TextField fx:id="txtMarketValue" layoutX="411.0" layoutY="343.0" prefHeight="25.0" prefWidth="149.0" promptText="\$XXX,XXX" />
+      <TextArea fx:id="txtDescription" editable="false" layoutX="104.0" layoutY="416.0" prefHeight="97.0" prefWidth="652.0" wrapText="true" />
+   </children>
+</AnchorPane>

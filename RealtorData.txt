@@ -1,0 +1,35 @@
+
+============New Realtor Data===========
+Property Code: RWD3923
+Status: Previously Owned
+Date Listed: 2019-08-14
+Year Built: 1996
+Property Type: Single Family
+Style: Victorian
+Address: 34 Davis Avenue
+City: Knoxville
+Location: North Suburbs
+State: TN
+Condition: Few Renovations
+Stories: 2
+Bedrooms: 4
+Bathrooms: 3.5
+Market Value: $540,000
+Picture Path: https://www.marketingresultsatlanta.com/wp-content/uploads/2015/06/Winward-Lot2.jpg
+============New Realtor Data===========
+Property Code: DAW234
+Status: Newly Constructed
+Date Listed: 2020-11-11
+Year Built: 2020
+Property Type: Town Home
+Style: Cookie Cutter
+Address: 35 Sandy Street
+City: Peoria
+Location: South Suburbs
+State: IL
+Condition: New
+Stories: 2
+Bedrooms: 2
+Bathrooms: 1.5
+Market Value: $350,000
+Picture Path: https://www.marketingresultsatlanta.com/wp-content/uploads/2015/06/Winward-Lot2.jpg
